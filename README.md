@@ -149,7 +149,7 @@ plt.show()
 ```
 
 
-![png](output_6_0.png)
+![png](img/Figure_1.png)
 
 Correaltion suggest that "Chance of Admit" is most related to 'GRE Score','CGPA', 'TOEFL Score'
 and least related to 'SOP','Research','LOR'
