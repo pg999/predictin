@@ -31,11 +31,9 @@ df.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -165,7 +163,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png](img/Figure_2.png)
 
 
 
@@ -181,11 +179,9 @@ df.describe()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -320,7 +316,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png](img/Figure_3.png)
 
 
 Looking into the correlation "University Ranking" and "CGPA" are strongly related.
@@ -335,7 +331,7 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![png](img/Figure_4.png)
 
 
 
@@ -353,7 +349,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](img/Figure_5.png)
 
 
 # Regression Algorithm
@@ -373,11 +369,9 @@ data.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -473,11 +467,9 @@ x.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
     .dataframe thead th {
         text-align: right;
     }
@@ -685,7 +677,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![png](img/Figure_6.png)
 
 
 
@@ -701,7 +693,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](img/Figure_7.png)
 
 
 
@@ -723,7 +715,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![png](img/Figure_8.png)
 
 
 candidate's Chance of Admit is greater than 80%, the candidate will receive the 1 label.
@@ -795,7 +787,7 @@ plt.show()
 ```
 
 
-![png](output_40_0.png)
+![png](img/Figure_9.png)
 
 
 
@@ -871,7 +863,7 @@ plt.show()
 ```
 
 
-![png](output_47_0.png)
+![png](img/Figure_10.png)
 
 
 
@@ -890,7 +882,7 @@ print("Score (KNN) :",score_knn)
 ```
 
 
-![png](output_48_0.png)
+![png](img/Figure_11.png)
 
 
     Score (KNN) : 0.9333333333333333
@@ -922,5 +914,5 @@ plt.show()
 ```
 
 
-![png](output_50_0.png)
+![png](img/Figure_12.png)
 
