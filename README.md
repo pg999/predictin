@@ -15,12 +15,6 @@ df = pd.read_csv("data/Admission_Predict.csv", sep=",")
 df.head()
 ```
 
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 216, got 192
-      return f(*args, **kwds)
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 216, got 192
-      return f(*args, **kwds)
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 192 from C header, got 216 from PyObject
-      return f(*args, **kwds)
 
 
 
@@ -518,8 +512,7 @@ train_x = scale_x.fit_transform(train_x)
 test_x = scale_x.transform(test_x)
 ```
 
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/preprocessing/data.py:334: DataConversionWarning: Data with input dtype int64, float64 were all converted to float64 by MinMaxScaler.
-      return self.partial_fit(X, y)
+
 
 
 ## Linear Regression
@@ -580,8 +573,7 @@ print("5.Actual Value:"+ str(test_y[4])+", Predicted Value:"+str(predict_rf[4]))
     5.Actual Value:0.44, Predicted Value:0.5952000000000005
 
 
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/_bootstrap.py:219: RuntimeWarning: numpy.ufunc size changed, may indicate binary incompatibility. Expected 216, got 192
-      return f(*args, **kwds)
+
 
 
 
@@ -704,8 +696,7 @@ print("Score(Logistic Regression):",score_lgr)
     Score(Logistic Regression): 0.9333333333333333
 
 
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
-      FutureWarning)
+
 
 
 
@@ -780,8 +771,7 @@ print("Score(SVM):",score_svm)
     Score(SVM): 0.9333333333333333
 
 
-    /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
-      "avoid this warning.", FutureWarning)
+ 
 
 
 
